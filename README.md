@@ -17,7 +17,8 @@ public:
   }
 
   void sayHi() {
-    cout << "Hi, my name's " << this->name << ". I'm an aspiring software engineer studying as a " << this->seniority << " at " << this->university << " with a graduation in " << this->gradYear 
+    cout << "Hi, my name's " << this->name << ". I'm an aspiring software engineer studying as a "
+      << this->seniority << " at " << this->university << " with a graduation in " << this->gradYear 
       << ". I'm also working on " << this->currentProject << endl;
   }
     
