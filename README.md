@@ -10,10 +10,7 @@ class SoftwareEngineer {
 public:
   SoftwareEngineer(string name, string currentProject, string university, string seniority, int gradYear) {
     this->name = name;
-    this->currentProject = currentProject;
-    this->university = university;
-    this->seniority = seniority;
-    this->gradYear = gradYear;
+    ...
   }
 
   void sayHi() {
@@ -24,10 +21,7 @@ public:
     
 protected:
   string name;
-  string currentProject;
-  string university;
-  string seniority;
-  int gradYear;
+  ...
 };
 
 int main() {
