@@ -1,10 +1,5 @@
 ## About Me
 ```cpp
-#include <iostream>
-#include <string>
-
-using namespace std;
-
 class SoftwareEngineer {
 public:
   SoftwareEngineer(string name, string currentProject, string university, string seniority, int gradYear) {
