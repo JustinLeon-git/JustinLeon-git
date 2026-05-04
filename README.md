@@ -22,7 +22,7 @@ int main() {
   string name = "Justin Leon";
   string currentProject = "a digital calendar that displays online calendars like AppleCal but on an e-paper display like a physical calendar.";
   string university = "University of Illinois Chicago";
-  string seniority = "Junior";
+  string seniority = "Senior";
   int gradYear = 2026;
   SoftwareEngineer me(name, currentProject, university, seniority, gradYear);
   me.sayHi();
